@@ -2,23 +2,84 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>关于本站</title>
+    <title>神秘黑洞 - 宇宙未解之谜</title>
     <style>
-        body { background-color: #1a1a2e; color: #fff; font-family: 'Microsoft YaHei'; padding: 30px; }
-        .content { max-width: 800px; margin: auto; background: #16213e; padding: 20px; border-radius: 10px; text-align: center;}
-        .back-btn { display: inline-block; margin-top: 20px; padding: 10px 20px; background: #e94560; color: white; text-decoration: none; border-radius: 5px; }
+        body { 
+            background-color: #0b0c10; 
+            color: #c5c6c7; 
+            font-family: 'Microsoft YaHei', sans-serif; 
+            padding: 40px; 
+            line-height: 1.8;
+        }
+        .content { 
+            max-width: 850px; 
+            margin: auto; 
+            background: #1f2833; 
+            padding: 40px; 
+            border-radius: 15px; 
+            box-shadow: 0 0 20px rgba(0, 229, 255, 0.1);
+        }
+        h2 { 
+            color: #66fcf1; 
+            text-align: center; 
+            font-size: 32px; 
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px rgba(102, 252, 241, 0.5);
+        }
+        h3 { 
+            color: #45a29e; 
+            border-left: 5px solid #45a29e; 
+            padding-left: 10px; 
+            margin-top: 30px;
+        }
+        img { 
+            width: 100%; 
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px; 
+            margin: 20px 0; 
+            border: 1px solid #45a29e;
+        }
+        .back-btn { 
+            display: inline-block; 
+            margin-top: 30px; 
+            padding: 12px 25px; 
+            background: transparent; 
+            color: #66fcf1; 
+            border: 2px solid #66fcf1;
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .back-btn:hover { 
+            background: #66fcf1; 
+            color: #0b0c10; 
+            box-shadow: 0 0 15px #66fcf1;
+        }
     </style>
 </head>
 <body>
     <div class="content">
-        <h2>关于这个网站</h2>
-        <p>本网站是《网页设计》课程的期末个人作业。</p>
-        <p>主题：太空与宇宙</p>
-        <p>制作者：[叶峻恺]</p>
-        <p>学号：[U202615000]</p>
-        <p>技术栈：HTML5 + CSS3 (使用Dreamweaver编写)</p>
+        <h2>深入神秘黑洞</h2>
         
-        <a href="../index.html" class="back-btn">返回主页</a>
+        <p>黑洞是宇宙中最神秘的天体之一。它的引力极其强大，以至于连光都无法逃脱它的束缚。在这个页面中，我们将探索黑洞的奥秘。</p>
+        
+        <!-- ⚠️ 注意：请确保 image 文件夹里有一张名为 blackhole.jpg 的图片 -->
+        <img src="../image/blackhole.jpg" alt="黑洞的吸积盘">
+        
+        <h3>一、什么是黑洞？</h3>
+        <p>黑洞是由大质量恒星在燃料耗尽后坍缩形成的。当一颗恒星的质量足够大时，它内部的压力无法抵抗自身的引力，最终会塌缩成一个密度无限大、体积无限小的奇点。在奇点周围，存在一个被称为“事件视界”的边界，任何进入这个边界的物质都无法返回。</p>
+        
+        <h3>二、人类如何观测黑洞？</h3>
+        <p>因为黑洞本身不发光，我们无法直接看到它。但是，当黑洞吞噬周围的物质时，这些物质会形成一个高速旋转的吸积盘，并发出强烈的X射线和可见光。2019年，人类首次通过“事件视界望远镜”（EHT）拍摄到了黑洞的照片，这标志着天文学的一大飞跃。</p>
+        
+        <h3>三、著名的黑洞</h3>
+        <p><strong>人马座A*：</strong> 位于银河系中心，距离地球约2.6万光年。<br>
+           <strong>M87*：</strong> 位于室女座A星系中心，是人类拍下的第一张黑洞照片的主角。</p>
+
+        <!-- 返回主页的相对路径，不能少 -->
+        <a href="../index.html" class="back-btn">← 返回主页</a>
     </div>
 </body>
 </html>
